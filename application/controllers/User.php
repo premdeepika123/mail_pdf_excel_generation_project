@@ -20,7 +20,7 @@ public function profile()
 {
 	if(($_SESSION['user_logged'])== FALSE){
 
-			$this->session->set_flashdata("error","Please login first to view this page!!!");
+			$this->session->set_flashdata("error","Please login first to view this pages!!!");
 			redirect('auth/login');
 
  
